@@ -37,7 +37,6 @@ def rolling_dice():
     # keep a reference
     label1.image = image1
 
-
 # adding button, and command will use rolling_dice function
 button = tkinter.Button(root, text='Roll the Dice', fg='blue', command=rolling_dice)
 
